@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Análise da Roleta K</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #0f0f0f;
+      color: #e0ffe0;
+    }
+    header {
+      background-color: #00a651;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    .container {
+      padding: 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    .descricao {
+      background-color: #1a1a1a;
+      padding: 20px;
+      border-radius: 10px;
+      margin-bottom: 30px;
+      box-shadow: 0 0 10px #00ff88;
+    }
+    .imagens {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 15px;
+      margin-bottom: 30px;
+    }
+    .imagens img {
+      width: 100%;
+      border-radius: 10px;
+      border: 2px solid #00a651;
+    }
+    .botoes {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+    .botao {
+      background-color: #00a651;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 8px;
+      box-shadow: 0 0 10px #00ff88;
+      transition: background-color 0.3s;
+      cursor: pointer;
+    }
+    .botao:hover {
+      background-color: #008c43;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+      color: #777;
+    }
+    .instrucoes {
+      margin-bottom: 30px;
+      padding: 15px;
+      background-color: #222;
+      border-left: 5px solid #00a651;
+    }
+  </style>
+  <script>
+    const senhasValidas = ["roletak2025", "senha123", "liberar2025"];
+
+    function solicitarSenha() {
+      const senha = prompt("Digite a senha para baixar o APK:");
+      if (senhasValidas.includes(senha)) {
+        window.location.href = "apk/Analise_RolletaK.apk";
+      } else if (senha !== null) {
+        alert("Senha incorreta! Entre em contato para obter a senha correta.");
+      }
+    }
+  </script>
+</head>
+<body>
+  <header>
+    <h1>Análise da Roleta K</h1>
+  </header>
+  <div class="container">
+    <div class="descricao">
+      <p>Pare de sofrer, tentando achar um método milagroso, um achado do Egito, para alcançar sucesso na roleta. Muitos perdem dinheiro por não ter uma forma validada. Mas isso tem um fim, de uma vez por todas.</p>
+      <p>O app <strong>ANÁLISE DA ROLETA K</strong> fará tudo por você. O que teremos:</p>
+      <ul>
+        <li>Análise de Cores</li>
+        <li>Análise de Cavalos</li>
+        <li>Análise de Colunas</li>
+        <li>Análise de Dúzias</li>
+        <li>Análise de Padrões</li>
+        <li>Análise de Terminais</li>
+        <li>Análise de Áreas quentes</li>
+        <li>Análise Par e Ímpar</li>
+        <li><strong>Sugestão de jogada</strong></li>
+      </ul>
+      <p>Pare de gastar dinheiro e tempo tentando analisar. <strong>Nós faremos isso por você.</strong></p>
+    </div>
+
+    <div class="imagens">
+      <img src="prints/print1.jpeg" alt="Print 1">
+      <img src="prints/print2.jpeg" alt="Print 2">
+      <img src="prints/print3.jpeg" alt="Print 3">
+      <img src="prints/print4.jpeg" alt="Print 4">
+      <img src="prints/print5.jpeg" alt="Print 5">
+    </div>
+
+    <div class="botoes">
+      <div class="botao" onclick="solicitarSenha()">📲 Baixar APK</div>
+      <div class="instrucoes">Ao instalar o app, clique em <strong>"Instalar sem análise"</strong> se aparecer o aviso do Play Protect.</div>
+      <a class="botao" href="https://wa.me/5589986029057" target="_blank">📩 Fale comigo no WhatsApp</a>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 - Análise da Roleta K. Todos os direitos reservados.
+  </footer>
+</body>
+</html>
